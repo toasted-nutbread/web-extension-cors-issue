@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Web Extension CORS Issue",
+  "version": "0.0.0",
+  "permissions": ["<all_urls>"],
+  "browser_action": {
+    "default_icon": {"16": "icon.png"},
+    "default_popup": "action.html"
+  },
+  "options_ui": {"page": "index.html", "open_in_tab": true},
+  "applications": {"gecko": {"id": "test@web-extension-cors-issue"}}
+}
